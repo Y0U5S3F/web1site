@@ -1,3 +1,4 @@
-document.querySelector('#login').onclick = function() {
-    document.querySelector('#mtitle').innerHTML=document.querySelector('#username').value ;
+document.querySelector('#login').onclick = function(){
+    const name = document.querySelector('#name').value;
+    document.querySelector('#mtitle').innerHTML = ('Welcome {$.name}')
 }
